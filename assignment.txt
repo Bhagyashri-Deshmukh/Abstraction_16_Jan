@@ -1,0 +1,22 @@
+Assignment (Encapsulation)
+============================
+
+-- Make the changes in Student class getter/setter method so that no one can set 
+negative value of roll number.
+
+-- Make the changes in Employee class getter/setter so that no one can set a name haveing
+less that 2 characters.
+
+HINT : use if/else block
+
+
+
+Assignment (Abstraction)
+============================
+
+-- Write an abstract class "car" with two data members=> colour and company, and one abstract method printCarInfo(),
+ two methods to retrieve colour and company.
+-- Write an interface "speed" having an abstract method "speedLimit()". The method speedLimit() will decide some max speed limit for the car.
+-- Write an interface "GearType" having an abstract method "autoOrManual()". The method autoOrManual() will say about whether car is automatic or manual.
+-- Write two classes(suppose => class Audi and class i10) which extends class "Car" and implements both interfaces(speed,GearType).
+-- Add a test class and override required methods and print information of all classes.
